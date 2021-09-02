@@ -1,0 +1,27 @@
+/* Style Start */
+.book-background{
+    background-color: black;
+}
+.book-title{
+    text-align: center;
+    color:crimson ;
+    font-weight: 700;
+}
+
+.search-btn{
+    background-color:gold;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.search-btn:hover{
+    background-color: goldenrod;
+    color: honeydew;
+}
+#results-section{
+    display: none;
+}
+#spinner{
+    display: none;
+    color: whitesmoke;
+}
