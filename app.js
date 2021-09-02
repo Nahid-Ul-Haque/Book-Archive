@@ -45,6 +45,7 @@ const bookDetails = details => {
     }
 
     details.forEach(detail => {
+        document.getElementById('length-books').innerHTML = `<h1 class='text-white'> Books Found: ${details.length} </h1>`;
         const div = document.createElement('div');
         div.classList.add('col');
         div.innerHTML = `
